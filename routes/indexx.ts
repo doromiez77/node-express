@@ -70,6 +70,12 @@ interface Car {
   start(): void;
 }
 
+interface Car2 {
+  clolor: string;
+  wheels: number;
+  start(): void;
+}
+
 interface Home {
   name: "Home";
   color: string;
