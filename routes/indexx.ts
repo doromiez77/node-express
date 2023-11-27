@@ -55,6 +55,7 @@ interface User {
   name: String;
   age: number;
 }
+//Merge Request 생성: 충돌이 있는 브랜치를 기반으로 새로운 Merge Request를 만듭니다.
 
 let user: User = {
   name: "xx",
