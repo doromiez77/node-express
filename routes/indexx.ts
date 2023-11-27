@@ -71,6 +71,12 @@ interface Car {
   start(): void;
 }
 
+interface dog {
+  clolor: string;
+  wheels: number;
+  start(): void;
+}
+
 // 함수 타입 정의
 // optional 파라미터
 function hello(name?: string) {
