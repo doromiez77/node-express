@@ -2,6 +2,7 @@ let age: number = 30;
 let isAdult: boolean = true;
 let a: number[] = [1, 2, 3];
 let a2: Array<number> = [1, 2, 3];
+let a4: Array<number> = [1, 2, 3];
 
 let week1: string[] = ["mon", "tue", "wed"];
 let week2: Array<string> = ["mon", "tue", "wed"];
@@ -62,11 +63,22 @@ let user: User = {
   age: 30,
 };
 
+let user1: User = {
+  name: "xx",
+  age: 30,
+};
+
 // implements
 
 interface Car {
   clolor: string;
   wheels: number;
+  start(): void;
+}
+
+interface Home {
+  name: "Home";
+  color: string;
   start(): void;
 }
 
