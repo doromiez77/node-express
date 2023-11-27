@@ -63,6 +63,11 @@ let user: User = {
   age: 30,
 };
 
+let user1: User = {
+  name: "xx",
+  age: 30,
+};
+
 // implements
 
 interface Car {
