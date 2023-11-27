@@ -2,8 +2,6 @@ let age: number = 30;
 let isAdult: boolean = true;
 let a: number[] = [1, 2, 3];
 let a2: Array<number> = [1, 2, 3];
-let a4: number[] = [1, 2, 3, 5];
-let a6: Array<number> = [1, 2, 3];
 
 let week1: string[] = ["mon", "tue", "wed"];
 let week2: Array<string> = ["mon", "tue", "wed"];
@@ -67,12 +65,6 @@ let user: User = {
 // implements
 
 interface Car {
-  clolor: string;
-  wheels: number;
-  start(): void;
-}
-
-interface dog {
   clolor: string;
   wheels: number;
   start(): void;
